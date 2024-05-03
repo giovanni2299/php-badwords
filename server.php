@@ -1,5 +1,7 @@
 <?php
+//per recuperare il valore dai form devi scergliere un metodo (GET/POST) e poi utiliuzarli con il metodo 
 $message = $_GET['message'];
+
 $message_lenght = strlen($message);
 $new_message = str_replace($message, '***', $message);
 $new_message_lenght = strlen($new_message);

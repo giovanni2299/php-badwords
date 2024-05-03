@@ -9,6 +9,7 @@
     <!-- CREO IL MIO FORM E LO COLLEGO AL ALTRO FOGLIO DOVE VISUALIZARE IL MESSAGGIO  -->
     <form action="./server.php">
         <p>
+            <!-- il nome del for deve coincidere con name e id all interno del input  -->
             <label for="message">mesaggio</label>
             <input type="text" name="message" id="message" placeholder="mandaci un messaggio " >
         </p>
