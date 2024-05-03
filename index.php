@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- CREO IL MIO FORM E LO COLLEGO AL ALTRO FOGLIO DOVE VISUALIZARE IL MESSAGGIO  -->
     <form action="./server.php">
         <p>
             <label for="message">mesaggio</label>
