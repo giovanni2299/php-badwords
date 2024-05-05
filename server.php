@@ -1,10 +1,10 @@
 <?php
 //per recuperare il valore dai form devi scergliere un metodo (GET/POST) e poi utiliuzarli con il metodo 
 $message = $_GET['paragrafo'];
-
+$censure = $_GET['censure'];
 $message_lenght = strlen($message);
-$new_message = str_replace('appennini', '***', $message);
-$new_message_lenght = strlen($new_message);
+$new_message = str_replace($censure, '***', $message, $count);
+
 ?>
 
 
@@ -28,8 +28,8 @@ $new_message_lenght = strlen($new_message);
 </div>
 <div>
     <p>
-        La lunghezza del nuovo paragrafo è:
-        <?php echo $new_message_lenght; ?>
-        caratteri
+        Il numero di censure è :
+        <?php echo $count; ?>
+       
     </p>
 </div>

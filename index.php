@@ -17,7 +17,12 @@
                     <label for="paragrafo">paragrafo</label>
 
                 </div>
-                <textarea name="paragrafo" id="paragrafo" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias, nihil laudantium architecto alias minima quam aliquid quis, incidunt, recusandae ratione pariatur vitae quibusdam neque quae rerum beatae qui dolorum sed quidem itaque unde deleniti nemo! Deserunt repellat tenetur, quibusdam possimus porro modi earum perferendis dolores quisquam quam, pariatur vero!</textarea>
+                <textarea name="paragrafo" id="paragrafo" cols="30" rows="10"></textarea>
+                
+                <div>
+                    <label for="censure">inserisci la censura: </label>
+                    <input type="text" id="censure" name="censure" placeholder="inserisci la/e parola/e da censurare">
+                </div>
             </div>
         </p>
        
